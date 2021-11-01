@@ -15,7 +15,7 @@ fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos`)
         cardContainer.className = "card center"
 
         const cardImg = document.createElement("img")
-        cardImg.src = "../assets/generic_code_bgrnd.jpg"
+        cardImg.src = "./assets/generic_code_bgrnd.jpg"
         cardImg.className = "project-image"
         
         cardContainer.appendChild(cardImg)
