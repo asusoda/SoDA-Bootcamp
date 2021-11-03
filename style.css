@@ -114,3 +114,7 @@ th, td {
     width: 60%;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
+
+.social-icons a {
+    text-decoration: none;
+}
