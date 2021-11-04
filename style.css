@@ -70,21 +70,21 @@
 }
 
 #projects_toggle {
-    border: 4px solid #8C1D40 !important;
+    border: 4px solid #8C1D40;
 }
 
 #projects_toggle:hover {
-    color: #8C1D40 !important;
-    border-color: black !important;
+    color: #8C1D40;
+    border-color: black;
 }
 
 #experience_toggle {
-    border: 4px solid #40AAF2 !important;
+    border: 4px solid #40AAF2;
 }
 
 #experience_toggle:hover {
-    color: #40AAF2 !important;
-    border-color: black !important;
+    color: #40AAF2;
+    border-color: black;
 }
 
 th, td {
