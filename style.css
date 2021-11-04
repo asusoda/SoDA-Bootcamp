@@ -96,3 +96,12 @@
 .social-icons a {
   text-decoration: none;
 }
+
+#back_button {
+    color: lightgray;
+    text-decoration: none;
+}
+
+#back_button:visited {
+    color: lightgray;
+}
