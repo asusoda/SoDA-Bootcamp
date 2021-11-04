@@ -10,14 +10,14 @@ fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos`)
         const repoDescription = repo.description
         const repoURL = repo.html_url
         const repoLanguage = repo.language
-        
+
         const cardContainer = document.createElement("div")
         cardContainer.className = "card center"
 
         const cardImg = document.createElement("img")
         cardImg.src = "./assets/generic_code_bgrnd.jpg"
         cardImg.className = "project-image"
-        
+
         cardContainer.appendChild(cardImg)
 
         const projectInfoContainer = document.createElement("div")
@@ -25,7 +25,7 @@ fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos`)
 
         const projectTitle = document.createElement("h3")
         projectTitle.textContent = repoName
-        
+
         const projectDescription = document.createElement("p")
         projectDescription.textContent = repoDescription
 
@@ -42,18 +42,18 @@ fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos`)
         projectInfoContainer.appendChild(projectLanguage)
 
         cardContainer.appendChild(projectInfoContainer)
-        
+
         const projectsContainer = document.getElementById("projects_container")
 
         projectsContainer.appendChild(cardContainer)
-    }   
-   
+    }
+
 });
-// The element we create for each repo: 
+// The element we create for each repo:
 // <div class="card center">
 // <img src="../assets/generic_code_bgrnd.jpg" alt="Avatar" style="">
 // <div class="container">
-//   <h4><b>Jane Doe</b></h4> 
-//   <p>Interior Designer</p> 
+//   <h4><b>Jane Doe</b></h4>
+//   <p>Interior Designer</p>
 // </div>
 // </div>
