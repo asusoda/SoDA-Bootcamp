@@ -31,15 +31,14 @@ fetch(`https://api.github.com/users/${GITHUB_USERNAME}/repos`)
 
         const projectURL = document.createElement("a")
         projectURL.href = repoURL
-        projectURL.text = "Repository Link"
+        projectURL.appendChild(projectTitle)
         projectURL.target = "_blank"
 
         const projectLanguage = document.createElement("p")
         projectLanguage.textContent = repoLanguage
 
-        projectInfoContainer.appendChild(projectTitle)
-        projectInfoContainer.appendChild(projectDescription)
         projectInfoContainer.appendChild(projectURL)
+        projectInfoContainer.appendChild(projectDescription)
         projectInfoContainer.appendChild(projectLanguage)
 
         cardContainer.appendChild(projectInfoContainer)
