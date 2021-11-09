@@ -1,0 +1,98 @@
+.background {
+  background-color: #282C34;
+}
+
+.center {
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+#intro_page_title {
+  color: #40aaf2;
+}
+
+.page-title {
+  font-size: 120px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#ASU {
+  color: #efaec0;
+  font-weight: bolder;
+}
+
+.summary-content {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#profile_pic {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+}
+
+#cursor {
+  color: #f8f8f0;
+  font-size: 100px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  vertical-align: text-top;
+}
+
+.toggle-button {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  background: white;
+  border-radius: 6px;
+  transition: all 0.3s ease 0s;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.toggle-button:hover {
+  border-radius: 50px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+#projects_toggle {
+  border: 4px solid #8c1d40;
+}
+
+#projects_toggle:hover {
+  color: #8c1d40;
+  border-color: black;
+}
+
+#experience_toggle {
+  border: 4px solid #40aaf2;
+}
+
+#experience_toggle:hover {
+  color: #40aaf2;
+  border-color: black;
+}
+
+#experience_table {
+  display: none;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+}

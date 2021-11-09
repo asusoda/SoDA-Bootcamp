@@ -6,35 +6,36 @@
   <title>FIRST LAST Portfolio</title>
 
   <meta charset="utf-8">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<body class="background">
 
-  <p>FIRST LAST<span>_</span></p>
+  <p class="page-title" id="intro_page_title">FIRST LAST<span>_</span></p>
 
   <div>
-    <img src="https://github.com/asusoda.png">
+    <img id="profile_pic" class="center" src="https://github.com/asusoda.png">
 
-    <p>
-      Computer Science Student @ <span>ASU</span><br>
+    <p class="summary-content">
+      Computer Science Student @ <span id="ASU">ASU</span><br>
       Graduating 20XX 🎓
     </p>
 
   </div>
 
-  <div>
+  <div class="center">
 
-    <button onclick="location.href = './projects.html'">
+    <button onclick="location.href = './projects.html'" class="toggle-button" id="projects_toggle">
       ./projects
     </button>
 
-    <button>
+    <button class="toggle-button" id="experience_toggle">
       ./experience
     </button>
 
   </div>
 
-  <div>
+  <div style="position: fixed; bottom: 0; left: 0;" class="social-icons">
     <a target="_blank" href="https://www.instagram.com/asu_soda/">
       <img src="./assets/instagram-brands.svg" height="50" width="50" alt="My Instagram">
     </a>

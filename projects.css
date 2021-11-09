@@ -1,0 +1,11 @@
+#back_button {
+  position: fixed;
+  top: 5;
+  left: 5;
+  height: 50px;
+  width: auto;
+  font-family: sans-serif;
+  font-size: 40px;
+  background-color: transparent;
+  cursor: pointer;
+}
