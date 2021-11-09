@@ -3,9 +3,9 @@
 This is the code for the portfolio site created live during [SoDA's 2021 Bootcamp](https://www.instagram.com/p/CVyxYedAxbK/). It uses vanilla HTML, CSS, and JavaScript. The
 bootcamp was split into three sections based on coding language. You can view the checkpoints for each section here:
 
-* [HTML](https://github.com/YasserDbeis/SoDA-Bootcamp/tree/html-checkpoint)
-* [CSS](https://github.com/YasserDbeis/SoDA-Bootcamp/tree/css-checkpoint)
-* [JavaScript](https://github.com/YasserDbeis/SoDA-Bootcamp/tree/javascript-checkpoint)
+* [HTML](https://github.com/asusoda/SoDA-Bootcamp/tree/html-checkpoint)
+* [CSS](https://github.com/asusoda/SoDA-Bootcamp/tree/css-checkpoint)
+* [JavaScript](https://github.com/asusoda/SoDA-Bootcamp/tree/javascript-checkpoint)
 
 ## Running
 
