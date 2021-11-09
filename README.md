@@ -9,7 +9,7 @@ bootcamp was split into three sections based on coding language. You can view th
 
 ## Running
 
-There is a live version of the site at https://yasserdbeis.github.io/SoDA-Bootcamp/. To run it locally, you can run a server in the project directory. We suggest using the
+There is a live version of the site at https://thesoda.io/SoDA-Bootcamp/. To run it locally, you can run a server in the project directory. We suggest using the
 [`live-server`](https://www.npmjs.com/package/live-server) npm package for this, so that the website reloads automatically whenever you change it. You can also open `index.html`
 in your browser without using a server.
 
