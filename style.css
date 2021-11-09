@@ -89,7 +89,7 @@
 
 th, td {
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid gray;
 }
 
 .experience-entry:hover {
@@ -100,6 +100,7 @@ th, td {
     display: none;
     width: 70%;
     margin-top: 20px;
+    color: white;
 }
 
 .experience-title {
